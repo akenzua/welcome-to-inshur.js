@@ -1,37 +1,16 @@
-# Welcome to the Inshur Coding Challenge 💻
+# Inshur
 
-## Getting Started 🛠
-Everything you need to get setup is within this repository. If you'd prefer not to use the code provided here that is fine. However, if you do use it we ask that you do **_not_** 'Fork' this repository, and instead you clone it.
+This is a profile page designed as part of the interview process as a Senior Frontend Developer in Inshur.
+It is built with `Node`, `Express`, and `React`, with the main template provided by Inshur.
+It contains only a page at `http://localhost:3000/` showing name, position, and picture, and favourite food.
 
-### Prefer Typescript?
-We're using Typescript at Inshur, so if you can we'd love to see you using it. Switch over to our other repository [here](https://github.com/Inshur/welcome-to-inshur) if you want to show us what you've got. However, if you'd prefer to continue using Javascript that's fine.
+## Setup
 
-### Setup
-1. `git clone https://github.com/Inshur/welcome-to-inshur.js.git`
-1. `cd welcome-to-inshur`
-1. `yarn install`
-1. `yarn start`
+1. `git clone https://github.com/akenzua/welcome-to-inshur.js.git`
+2. `cd welcome-to-inshur`
+3. `yarn install`
+4. `yarn start`
 
-## Your Task 📝
-In order to get to know you we'd like you to create yourself a profile page.
+## Test
 
-No profile page is complete without the following:
-- Your profile picture (can be of anything)
-- Your name
-- Your job title
-- Your favourite food
-
-## What we'd like to see being used 🕵️‍♂️
-- The API
-- Jest
-- React Hooks
-- CSS
-
-## Duration ⏰
-You may take anywhere up to 2+ hours on your profile if you wish.
-
-## Submitting your code 📬
-Once you're satisfied with your work, please push it up to a public GitHub repository and send us the link. 
-
-If you've chosen to clone this repository, use this command to replace the origin URL with a repository URL you've created:
-1. `git remote set-url origin [YOUR_REMOTE_URL]`
+To start the test runner run `yarn test`
