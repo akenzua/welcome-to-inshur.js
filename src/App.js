@@ -11,7 +11,24 @@ const App = () => {
     };
     fetchProfile();
   }, []);
-  return <div className="App">Profile</div>;
+  return (
+    <div className="App">
+      {profile.map(({ name, jobTitle, favouriteFood, pictureUrl }, i) => (
+        <div key={i} className="profile">
+          <h1 className="heading">Profile</h1>
+          <div className="image-wrapper">
+            <img src={pictureUrl} alt="{name}" />
+          </div>
+
+          <div className="info-wrapper">
+            <div className="info"> {name}</div>
+            <div className="info">{jobTitle}</div>
+            <div className="info no-border">I love {favouriteFood}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default App;
